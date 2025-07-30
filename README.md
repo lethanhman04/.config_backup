@@ -1,2 +1,4 @@
-# .config
-i3, alacritty
+#Cau hinh config
+
+- i3
+- alacritty

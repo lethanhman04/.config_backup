@@ -9,3 +9,19 @@ background = "#000000"
 
 [cursor]
 style = "Underline"
+
+[font]
+normal.family = "JetBrainsMonoNL"
+bold.family = "JetBrainsMonoNL"
+italic.family = "JetBrainsMonoNL"
+bold_italic.family = "JetBrainsMonoNL"
+
+size = 15
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control", action = "Paste"},
+  { key = "C", mods = "Control", action = "Copy"},
+  { key = "Paste", action = "Paste"},
+  { key = "Copy", action = "Copy"},
+]

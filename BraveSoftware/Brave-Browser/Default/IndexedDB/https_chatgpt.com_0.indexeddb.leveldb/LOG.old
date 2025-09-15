@@ -1,0 +1,15 @@
+2025/08/16-07:09:55.872 1ab Reusing MANIFEST /root/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/16-07:09:55.872 1ab Recovering log #4
+2025/08/16-07:09:55.872 1ab Reusing old log /root/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000004.log 
+2025/08/16-07:10:03.250 1ac Level-0 table #8: started
+2025/08/16-07:10:03.252 1ac Level-0 table #8: 190 bytes OK
+2025/08/16-07:10:03.254 1ac Delete type=0 #4
+2025/08/16-07:10:03.254 1ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/08/16-07:10:03.254 1ad Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 58 : 1
+2025/08/16-07:10:03.254 1ad Compacting 1@1 + 1@2 files
+2025/08/16-07:10:03.256 1ad Generated table #9@1: 21 keys, 1127 bytes
+2025/08/16-07:10:03.256 1ad Compacted 1@1 + 1@2 files => 1127 bytes
+2025/08/16-07:10:03.258 1ad compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/16-07:10:03.258 1ad Delete type=2 #8
+2025/08/16-07:10:03.258 1ad Delete type=2 #5
+2025/08/16-07:10:03.258 1ac Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 58 : 1 .. (end); will stop at (end)

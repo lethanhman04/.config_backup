@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "ddc5b25a-141b-4e1d-a01a-b06d91e3d9ed",
+      "logo": {
+        "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/7131bf57-041d-45f0-a849-029c0a6c0475.png",
+        "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads",
+        "alt": "Unstoppable Domains x Brave Earn Badges for owning multiple .brave domains. - Learn More",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/b69160d2-b09e-476f-ab20-f4ff758bb092.jpg",
+          "creativeInstanceId": "633a7021-b2df-4f61-a646-b16bd6c3095b",
+          "focalPoint": {
+            "x": 1250,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "0eac2417-8e56-450c-bb05-7cd73f9ea3b2/36c82309-ee32-4623-b2d6-6a796a551636.jpg",
+          "creativeInstanceId": "c954067c-3049-4565-a40b-5fae91c7bbc2",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "0eac2417-8e56-450c-bb05-7cd73f9ea3b2/d94c664c-5c0c-4e34-bfd3-11f21df296ed.png",
+            "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads3",
+            "alt": ".Brave domains now native in brave - Use your domain in brave browswer & wallet. get one from $5.",
+            "companyName": "Unstoppable Domains"
+          }
+        },
+        {
+          "imageUrl": "d50e7cba-41df-4a9e-9a64-8d901a8d1665/178024f1-5113-4202-a907-d0c6664c7cad.jpg",
+          "creativeInstanceId": "45a8f45b-01e6-4c20-9c5b-d8159395a5a6",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "d50e7cba-41df-4a9e-9a64-8d901a8d1665/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/evm?utm_source=brave&utm_medium=ads&utm_campaign=202507braveevm",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "ddc5b25a-141b-4e1d-a01a-b06d91e3d9ed",
+      "logo": {
+        "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/7131bf57-041d-45f0-a849-029c0a6c0475.png",
+        "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads",
+        "alt": "Unstoppable Domains x Brave Earn Badges for owning multiple .brave domains. - Learn More",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/b69160d2-b09e-476f-ab20-f4ff758bb092.jpg",
+          "creativeInstanceId": "633a7021-b2df-4f61-a646-b16bd6c3095b",
+          "focalPoint": {
+            "x": 1250,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "0eac2417-8e56-450c-bb05-7cd73f9ea3b2/36c82309-ee32-4623-b2d6-6a796a551636.jpg",
+          "creativeInstanceId": "c954067c-3049-4565-a40b-5fae91c7bbc2",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "0eac2417-8e56-450c-bb05-7cd73f9ea3b2/d94c664c-5c0c-4e34-bfd3-11f21df296ed.png",
+            "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads3",
+            "alt": ".Brave domains now native in brave - Use your domain in brave browswer & wallet. get one from $5.",
+            "companyName": "Unstoppable Domains"
+          }
+        },
+        {
+          "imageUrl": "d50e7cba-41df-4a9e-9a64-8d901a8d1665/178024f1-5113-4202-a907-d0c6664c7cad.jpg",
+          "creativeInstanceId": "45a8f45b-01e6-4c20-9c5b-d8159395a5a6",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "d50e7cba-41df-4a9e-9a64-8d901a8d1665/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/evm?utm_source=brave&utm_medium=ads&utm_campaign=202507braveevm",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        }
+      ]
+    }
+  ]
+}

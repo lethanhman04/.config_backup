@@ -19,10 +19,10 @@ client.unfocused                #444444 #444444 #888888 #444444 #444444
 client.focused_inactive         #444444 #444444 #888888 #444444 #444444
 
 ### cau hinh hinh nen
-exec_always --no-startup-id feh --bg-scale /home/noname/Pictures/nopainnogain.png
+#exec_always --no-startup-id feh --bg-scale /home/noname/Pictures/nopainnogain.png
 
 ### Cau hinh phim tat cua rieng minh
-bindsym $mod+b exec brave-browser
+bindsym $mod+b exec brave --no-sandbox
 bindsym $alt+l exec i3-msg exit
 bindsym $alt+s exec shutdown now
 
@@ -34,13 +34,13 @@ set $mod Mod4
 set $alt Mod1
 
 ########## Font
-font pango:monospace 10
+font pango:JetBrainsMonoNL 12
 
 ### Khoi dong moi truong i3
 exec --no-startup-id dex --autostart --environment i3
 
 ### Khoa moi truong i3 khi khong hoat dong
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 ### Cau hinh he thong am thanh
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -82,11 +82,16 @@ bindsym $mod+f fullscreen toggle
 ### cho cua so dang focus noi tren cac cua so khac
 bindsym $mod+Shift+space floating toggle
 
+### khoa man hinh
+
+bindsym $mod+x exec --no-startup-id alacritty --class floating -e /usr/bin/lock 
+for_window [class="floating"] floating enable move position center
+
 ### Cau hinh ten workspace
-set $ws1 "1:Terminal"
-set $ws2 "2:Brave"
-set $ws3 "3:Chess"
-set $ws4 "4:Youtube"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -95,16 +100,21 @@ set $ws9 "9"
 set $ws10 "10"
 
 #### Di chuyen giua cac workspace
-bindsym $mod+1 workspace number $ws1
-bindsym $mod+2 workspace number $ws2
-bindsym $mod+3 workspace number $ws3
-bindsym $mod+4 workspace number $ws4
-bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
-bindsym $mod+7 workspace number $ws7
-bindsym $mod+8 workspace number $ws8
-bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+###
+assign [class="Alacritty"] "1"
+assign [class="Brave-browser"] "2"
+### 
 
 ### Khoi dong lai sau khi cau hinh i3
 bindsym $mod+Shift+r restart
@@ -122,26 +132,26 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Thanh bar mac dinh cua i3
-bar {
-    status_command i3status --config /home/noname/.config/i3/i3status/i3status.conf
-    position top
-    colors {
-                        #mauchu #maunen #mauvien
-      focused_workspace   #ffffff #000000 #ffffff
-      inactive_workspace  #444444 #000000 #ffffff
-      active_workspace    #ffffff #000000 #ffffff
-  }
-}
+#bar {
+#    status_command i3status --config /root/.config/i3/i3status/i3status.conf
+#    position top
+#    colors {
+#                        #mauchu #maunen #mauvien
+#      focused_workspace   #ffffff #000000 #ffffff
+#      inactive_workspace  #444444 #000000 #ffffff
+#      active_workspace    #ffffff #000000 #ffffff
+#  }
+#}
 
 ### Khi mo may len cac cua so va cac ung dung se tu dong mo trong cac workspace da cau hinh san
-exec --no-startup-id i3-msg "workspace 1:Terminal; exec alacritty"
-exec --no-startup-id bash -c "sleep 1.2 && i3-msg 'workspace 2:Brave'"
-exec --no-startup-id bash -c "sleep 1.2 && brave-browser"
+#exec --no-startup-id i3-msg "workspace 1:Terminal; exec alacritty"
+#exec --no-startup-id bash -c "sleep 1.2 && i3-msg 'workspace 2:Brave'"
+#exec --no-startup-id bash -c "sleep 1.2 && brave-browser"
 
-exec --no-startup-id bash -c "sleep 2.2 && i3-msg 'workspace 3:Chess'"
-exec --no-startup-id bash -c "sleep 2.2 && brave-browser --new-window https://www.chess.com/home"
+#exec --no-startup-id bash -c "sleep 2.2 && i3-msg 'workspace 3:Chess'"
+#exec --no-startup-id bash -c "sleep 2.2 && brave-browser --new-window https://www.chess.com/home"
 
-exec --no-startup-id bash -c "sleep 3.2 && i3-msg 'workspace 4:Youtube'"
-exec --no-startup-id bash -c "sleep 3.2 && brave-browser --new-window https://www.youtube.com/"
+#exec --no-startup-id bash -c "sleep 3.2 && i3-msg 'workspace 4:Youtube'"
+#exec --no-startup-id bash -c "sleep 3.2 && brave-browser --new-window https://www.youtube.com/"
 
 ############# Xong file cau hinh roi :V #############
